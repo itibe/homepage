@@ -1,0 +1,28 @@
+@font-face {
+    font-family: montserrant;
+    src: url('/font/Montserrat-MediumItalic.otf');
+}
+
+header {
+    border-style: solid;
+    background-image: linear-gradient(to right, #4484CE , #D9D9D9);
+    border-radius: 25px;
+}
+
+nav {
+    border-style: solid;
+    background-color: #343a40;
+    border-radius: 25px;
+
+}
+
+header h1 {
+    padding-right: 30px;
+    font-family: montserrant, sans-serif;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
