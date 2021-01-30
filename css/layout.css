@@ -72,3 +72,36 @@ nav a {
     width: 25%;
 }
 
+div.contact {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 95%;
+    align-items: baseline;
+}
+
+div.phone {
+    margin-left: 35px;
+}
+
+div.email {
+    margin-left: 35px;
+}
+
+div.linkedin {
+    margin-left: 35px;
+}
+
+div.contact span {
+    margin-left: 10px;
+}
+
+div.contact img {
+    width: 40px;
+    height: 40px;
+}
+
+embed {
+    margin-top: 25px;
+}
