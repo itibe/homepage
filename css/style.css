@@ -13,8 +13,8 @@ p {
 }
 
 header {
-    border-style: solid;
-    border-width: thin;
+    /*border-style: solid; */
+    /*border-width: thin;*/
     /*background-image: linear-gradient(to right, #4484CE , #D9D9D9); */
     background-image: linear-gradient(to right, #5c60b2, #f6f7ff);
 
@@ -31,6 +31,7 @@ header h1 {
     padding-right: 30px;
     font-size: 50px;
     font-family: 'Orbitron', sans-serif;
+    margin-left: 20px
 }
 
 nav ul {
