@@ -47,3 +47,8 @@ nav a {
     /*background-color: #e9ecef; */
     background-color: #D0D2FF;
 }
+
+.statement {
+    border-style: solid;
+    border-width: thin;
+}

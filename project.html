@@ -5,6 +5,7 @@
     <title>Selected Projects</title>
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="script/menu.js"></script>
 <style>
     @media only screen and (max-width: 600px) {
         .text {
@@ -39,10 +40,13 @@
 <nav>
     <ul>
         <li>
-            <a href="index.html">Home</a>
+            <a onclick="get_menu_content('index_content.html')">Home</a>
         </li>
         <li>
-            <a href="resume.html">Resume</a>
+            <a onclick="get_menu_content('project_content.html')">Selected Projects</a>
+        </li>
+        <li>
+            <a onclick="get_menu_content('resume_content.html')">Resume</a>
         </li>
     </ul>
 </nav>
@@ -52,8 +56,8 @@
     <div class="item">
         <div class="itembody">
             <div class="text">
-                <p>Dmacc Attendance is a GUI based attendance management program written in Java using the Eclipse IDE for the Data Structures final project. Instructor add
-                student to custom named classes. Attendance can then be taken for each class. Attendance reports can be generated for each class. An import
+                <p>Dmacc Attendance is a GUI based attendance management program written in Java using the Eclipse IDE for Data Structures final project. Instructor add
+                student to custom named class rooms. Attendance can then be taken for each class. Attendance reports can be generated for each class. An import
                 feature allow list of student to be easily imported. </p>
             </div>
             <img src="image/dmaccattendance.png" alt="Screenshoot of Dmacc Attendance">
@@ -71,10 +75,10 @@
     <div class="item">
         <div class="itembody">
             <div class="text">
-                <p>Where's my stuff is a web based personal lending library written in Java using the Spring platform and the Eclipse IDE. It was the final
-                    project for Java II. This project was written in a group which consisted of five members. My contribution to the project
-                    was to design and write the Html and Css, however each person added too the html as each new feature was implemented.
-                    Additionally, I implemented the lend item function, and I added the ability to upload pictures of items, which were stored in a database.
+                <p>Where's my stuff is a web based personal lending library written in Java using the Spring Platform and the Eclipse IDE.
+                    This project was written in a group of five members. My contribution to the project
+                    was to design and write the HTML and CSS, however each person added too the HTML and CSS as each new feature was implemented.
+                    Additionally, I implemented the lend item function, and I added the ability to upload pictures, which were stored in a database.
                     Users can add items which can be lent out to others users for a predetermined amount of time. The web site keeps track of the items
                     for each user, items lent out, lend dates, due dates, and borrower ratings</p>
             </div>
@@ -93,7 +97,7 @@
     <div class="item">
         <div class="itembody">
             <div class="text">
-                <p>The Stock Portfolio Organizer is a GUI based program that was written in Python using JetBrains PyCharm IDE. The software will
+                <p>The Stock Portfolio Organizer is a GUI based program written in Python using The JetBrains PyCharm IDE. The software will
                 allow the user to add buy and sell transactions of any valid trading stock. The software will calculate the value of the current
                 portfolio using real time stocks quotes from an api provided by Alphavantage.co. Profit and loss can also be calculated for each stock.</p>
             </div>

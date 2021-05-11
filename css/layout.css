@@ -106,6 +106,12 @@ embed {
     margin-top: 25px;
 }
 
+.statement {
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+
 @media only screen and (max-width: 600px) {
 
     .itembody {
