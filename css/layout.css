@@ -74,10 +74,10 @@ nav a {
 
 div.contact {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: flex-end;
     margin-top: 25px;
     width: 95%;
+    align-items: center;
 
 }
 
@@ -112,7 +112,7 @@ embed {
     padding: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     .itembody {
         display: flex;
@@ -175,4 +175,9 @@ embed {
         align-items: center;
     }
 
+    div.text {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
 }
