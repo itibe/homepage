@@ -81,10 +81,6 @@ div.contact {
 
 }
 
-div.phone {
-    margin-left: 35px;
-}
-
 div.email {
     margin-left: 35px;
 }
@@ -112,7 +108,11 @@ embed {
     padding: 15px;
 }
 
-@media only screen and (max-width: 800px) {
+.text {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
 
     .itembody {
         display: flex;
@@ -161,6 +161,7 @@ embed {
 
     .title {
         font-size: larger;
+        padding-left: 0;
     }
 
     header h1 {
@@ -179,5 +180,9 @@ embed {
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
+    }
+
+    .github {
+        padding-right: 0;
     }
 }
