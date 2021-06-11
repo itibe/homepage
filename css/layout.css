@@ -128,8 +128,8 @@ embed {
     }
 
     .item {
-        height: 750px;
-        display:flex;
+        height: 1000px;
+        display: flex;
         flex-direction: column;
     }
 
